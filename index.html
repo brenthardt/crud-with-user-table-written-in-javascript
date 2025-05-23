@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div
+      style="justify-content: space-between"
+      class="form-control w-100 mx-auto mt-3 d-flex"
+    >
+      <div class="form-control w-25">
+        <input
+          id="emailOne"
+          placeholder="email"
+          type="email"
+          class="form-control"
+        />
+        <input
+          id="firstName-1"
+          placeholder="firstName"
+          type="text"
+          class="form-control"
+        />
+        <input
+          id="lastName-1"
+          placeholder="lastName"
+          type="text"
+          class="form-control"
+        />
+        <div class="d-flex gap-3 w-25">
+          <button class="btn btn-info" onclick="myFunction()">+</button>
+          <h4 id="textOne">0</h4>
+          <button class="btn btn-info" onclick="myFunction2()">-</button>
+          <button class="btn btn-success" onclick="saveOne()">save</button>
+        </div>
+      </div>
+      <div
+        style="display: flex; gap: 40px; flex-wrap: wrap; align-items: center"
+      >
+        <div style="height: 80px; width: 80px" class="form-control">
+          <h6>Added</h6>
+          <p style="text-align: center" id="addSum">0</p>
+        </div>
+
+        <div style="height: 80px; width: 80px" class="form-control">
+          <h6>Edited</h6>
+          <p style="text-align: center" id="editSum">0</p>
+        </div>
+
+        <div style="height: 80px; width: 80px" class="form-control">
+          <h6>Deleted</h6>
+          <p style="text-align: center" id="deleteSum">0</p>
+        </div>
+
+        <div style="height: 80px; width: 80px" class="form-control">
+          <h6>Users</h6>
+          <p style="text-align: center" id="usersSum">0</p>
+        </div>
+      </div>
+
+      <div style="height: 160px; width: 120px" class="form-control mt-3">
+        <button onclick="clearAll()" class="btn btn-outline-danger">
+          clear all
+        </button>
+        <button onclick="clearHalf()" class="btn btn-outline-info mt-3">
+          clear half
+        </button>
+        <button onclick="clearLast()" class="btn btn-outline-warning mt-3">
+          clear last
+        </button>
+      </div>
+
+      <div class="form-control w-25">
+        <input
+          id="emailTwo"
+          placeholder="email"
+          type="email"
+          class="form-control"
+        />
+        <input
+          id="firstNameTwo"
+          placeholder="firstName"
+          type="text"
+          class="form-control"
+        />
+        <input
+          id="lastNameTwo"
+          placeholder="lastName"
+          type="text"
+          class="form-control"
+        />
+        <div style="height: 40px" class="d-flex gap-3 w-25">
+          <button class="btn btn-info" onclick="myFunction5()">+</button>
+          <h4 id="textTwo">0</h4>
+          <button class="btn btn-info" onclick="myFunction6()">-</button>
+          <button class="btn btn-primary" onclick="saveTwo()">apply</button>
+        </div>
+      </div>
+    </div>
+
+    <table class="table table-bordered w-100 my-3">
+      <thead class="table-light">
+        <tr>
+          <th>Email</th>
+          <th>firstName</th>
+          <th>lastName</th>
+          <th>count</th>
+          <th>actions</th>
+        </tr>
+      </thead>
+      <tbody id="collector"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
