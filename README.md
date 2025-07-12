@@ -63,7 +63,7 @@ Everything works with `localStorage` — no backend required.
 
 - HTML5
 - CSS3 (Bootstrap)
-- Vanilla JavaScript
+- JavaScript
 - Browser `localStorage`
 
 ---
