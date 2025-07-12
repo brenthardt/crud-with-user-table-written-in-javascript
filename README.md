@@ -20,13 +20,13 @@ Everything works with `localStorage` — no backend required.
 
 ## Features
 
-- ✅ Add and save users
-- ✅ Edit user information
-- ✅ Increment/decrement count for each user
-- ✅ Remove users
-- ✅ Clear all, clear half, or clear last user
-- ✅ Track total adds, edits, and deletes
-- ✅ Fully responsive with Bootstrap
+-  Add and save users
+-  Edit user information
+-  Increment/decrement count for each user
+-  Remove users
+-  Clear all, clear half, or clear last user
+-  Track total adds, edits, and deletes
+-  Fully responsive with Bootstrap
 
 ---
 
@@ -83,17 +83,6 @@ No build steps or server needed.
 
 ---
 
-## License
-
-This project is free to use for personal or educational purposes.
-
----
-
-## Screenshots
-
-*(Add screenshots here if you want — drag and drop images into this section)*
-
----
 
 ## Author
 
