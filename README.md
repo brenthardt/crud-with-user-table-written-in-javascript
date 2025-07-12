@@ -1,41 +1,101 @@
-User Manager
-This is a simple local storage-based user management app built with HTML, JavaScript, and Bootstrap. It allows you to add, edit, delete, and manage user records directly in the browser without any backend.
+# User Manager
 
-Features
-Add a new user with email, first name, and last name.
+A simple browser-based user management tool built with plain JavaScript and Bootstrap. Add, edit, delete, and manage users — all stored locally in your browser.
 
-Keep track of a numeric count for each user.
+---
 
-Increase or decrease the count for new or existing users.
+## Overview
 
-Edit user details and their count.
+This project lets you:
+- Add new users with email, first name, last name, and a custom count.
+- Increment or decrement user counts.
+- Edit existing user details.
+- Delete individual users.
+- Clear all users, half the list, or just the last entry.
+- See live stats for added, edited, and deleted users.
 
-Delete individual users.
+Everything works with `localStorage` — no backend required.
 
-Clear all users, half of them, or just the last one.
+---
 
-View summaries for how many users have been added, edited, and deleted.
+## Features
 
-All user data is stored in localStorage, so your data stays even if you refresh the page.
+- ✅ Add and save users
+- ✅ Edit user information
+- ✅ Increment/decrement count for each user
+- ✅ Remove users
+- ✅ Clear all, clear half, or clear last user
+- ✅ Track total adds, edits, and deletes
+- ✅ Fully responsive with Bootstrap
 
-How it works
-Use the left form to add a new user. Enter email, first name, last name, and adjust the count using the plus and minus buttons. Click save to add the user.
+---
 
-Use the right form to edit an existing user. Click the edit button in the user table to load a user’s info into the form. Make changes and click apply.
+## How to Use
 
-Each user in the table has buttons to increment, decrement, or clear their count, as well as to edit or delete them.
+1. **Add a User**
+   - Fill out the email, first name, and last name.
+   - Use the plus/minus buttons to set the count.
+   - Click **Save** to add the user.
 
-The summary section shows how many times users have been added, edited, or deleted.
+2. **Edit a User**
+   - Click **Edit** on a user row.
+   - Their info appears in the edit form.
+   - Make changes and click **Apply**.
 
-Running the app
-Simply open the index.html file in your browser. There’s no setup needed.
+3. **Manage Counts**
+   - Use the `+` or `–` buttons to adjust counts.
+   - Use **Clear** to reset a user’s count to zero.
 
-Technologies
-HTML
+4. **Delete Users**
+   - Click `X` to remove a user from the table.
 
-CSS (Bootstrap)
+5. **Clear Options**
+   - **Clear All**: Removes all users.
+   - **Clear Half**: Deletes the first half.
+   - **Clear Last**: Deletes the last user.
 
-JavaScript
+6. **Track Changes**
+   - Summary boxes show totals for added, edited, deleted users, and total count.
 
-Note
-This is a simple project intended for practice or small demos. Data is stored locally in the browser and will not sync across devices.
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3 (Bootstrap)
+- Vanilla JavaScript
+- Browser `localStorage`
+
+---
+
+## Project Structure
+
+
+---
+
+## Getting Started
+
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Start adding and managing users.
+
+No build steps or server needed.
+
+---
+
+## License
+
+This project is free to use for personal or educational purposes.
+
+---
+
+## Screenshots
+
+*(Add screenshots here if you want — drag and drop images into this section)*
+
+---
+
+## Author
+
+Built for learning and experimenting with plain JavaScript and `localStorage`.
+
